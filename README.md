@@ -17,7 +17,7 @@ The answer is no. To know why, we should look at the compilation process:
 
 * g++ -std=c++11  PublishStep.cpp **-lrt**
 * To link-in librt.a or librt.so, which is the Realtime Extensions library.
-* -lrt- provides POSIX realtime extensions
+* -lrt- provides POSIX realtime extensions. POSIX表示可移植操作系统接口（Portable Operating System Interface ，缩写为 POSIX)
 
 [Reference](http://stackoverflow.com/questions/6754032/what-library-does-ld-option-lrt-refer-to-bionic-libc)
 
