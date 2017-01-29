@@ -35,7 +35,7 @@
 > git pull origin master
 
 ## Branch
-![Image of Branch](https://github.com/alfredzj/Study-Note/blob/master/pics/branch_git)
+![Image of Branch](https://github.com/alfredzj/Study-Note/blob/master/pics/branch_git)          
 It is good to use branch because    
 * The stable version will not be destroyed
 * Good for developers in a team
