@@ -49,11 +49,11 @@ It is good to use branch because
 
 ### How to merge branches
 e.g: we first create a file on this_is_a_branch and then merge it with master
-> git add abc.txt
-> git commit -m "this is done on this_is_a_branch"
-> git checkout master
-> git merge this_is_a_branch
-> git branch -d this_is_a_branch
+> git add abc.txt               
+> git commit -m "this is done on this_is_a_branch"              
+> git checkout master           
+> git merge this_is_a_branch            
+> git branch -d this_is_a_branch                
 
 
 
