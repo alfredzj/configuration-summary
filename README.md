@@ -1,4 +1,7 @@
 # Study-Note
-*CMake
-*CPP
-*Github
+
+* CMake
+
+* CPP
+
+* Github
