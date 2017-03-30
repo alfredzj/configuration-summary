@@ -39,7 +39,7 @@
         ```conda install -c intel tcl=8.6.4```
 
 ### Some issues you may encounter during the process
-1. tcl not found
+* tcl not found
 > install.packages('highfrequency')  
 --- Please select a CRAN mirror for use in this session ---
 Error: .onLoad failed in loadNamespace() for 'tcltk', details:
@@ -47,7 +47,7 @@ call: fun(libname, pkgname)
 error: Can't find a usable init.tcl in the following directories: 
 /opt/anaconda1anaconda2anaconda3/lib/tcl8.5 ./lib/tcl8.5 ./lib/tcl8.5 ./library ./library ./tcl8.5.18/library ./tcl8.5.18/library
 
-    Solution: tck is a package which supports install.packages() function and it is installed in the global environment if you use ```sudo apt-get install tcl8.5-dev tk8.5-dev``` and conda has no access to it. Just do the 5th step above to solve this problem.
+Solution: tck is a package which supports install.packages() function and it is installed in the global environment if you use ```sudo apt-get install tcl8.5-dev tk8.5-dev``` and conda has no access to it. Just do the 5th step above to solve this problem.
               or you could add following lines to the .bashrc
               ``` export TCL_LIBRARY="/home/zijun/anaconda2/lib/tcl8.5"
               export TK_LIBRARY="/home/zijun/anaconda2/lib/tk8.5" ```
