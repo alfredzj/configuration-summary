@@ -84,5 +84,5 @@ A: Since we set up the tcl, we can easily use install.packages() or remove.packa
   - type ```conda install conda-build``` in the terminal
   - Use ```conda skeleton cran``` and ```conda build to install``` packages (you may mind the dependency issue)
 
-However this will **not** give you the control either. So my suggestion is simply using install.packages() in R to install your packages.
+However this will **not** give you the control either. Moreover, there might be more issues about shitty sytax in R. So my suggestion is simply using install.packages() in R to install your packages.
 
