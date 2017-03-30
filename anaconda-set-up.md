@@ -78,8 +78,11 @@ A: Solution:
               
               
 Q: How to install packages in R
-A: Since we set up the tcl, we can easily use install.packages() or remove.packages() to manage the R packages. However in this way, conda will lose control over r packages. Here is my recommendation:
+
+A: Since we set up the tcl, we can easily use install.packages() or remove.packages() to manage the R packages. However in this way, conda will lose control over r packages. Also you may find some suggestions using conda-build like this:
   - switch back to the root environment
   - type ```conda install conda-build``` in the terminal
-  - Use ```conda skeleton cran``` and ```conda build to install``` packages
+  - Use ```conda skeleton cran``` and ```conda build to install``` packages (you may mind the dependency issue)
+
+However this will **not** give you the control either. So my suggestion is simply using install.packages() in R to install your packages.
 
