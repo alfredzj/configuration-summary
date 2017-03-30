@@ -23,8 +23,10 @@
 1. Click this [link](https://www.continuum.io/downloads) and download corresponding version of anaconda. 
 
 2. Type the following code in the terminal and the installation will be set up automatically
-  ```bash Anaconda2-4.3.1-Linux-x86_64.sh``` . 
-  Do include the "bash" command even if you are not using the bash shell.
+
+        ```bash Anaconda2-4.3.1-Linux-x86_64.sh``` . 
+
+    Do include the "bash" command even if you are not using the bash shell.
 
 3. Add ```export PATH="/home/zijun/anaconda/bin:$PATH"``` to the **.bashrc** or **.zshrc**(if you are a zsh user).
 
