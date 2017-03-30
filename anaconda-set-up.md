@@ -30,23 +30,29 @@
 
 3. Add the following line to the **.bashrc** or **.zshrc**(if you are a zsh user).
 
-        ```export PATH="/home/zijun/anaconda/bin:$PATH"```
+        ```export PATH="/home/zijun/anaconda2/bin:$PATH"```
 
 4. Create python3 environment in your conda. 
 
-        ```$ conda create -n py3 python=3.5 anaconda```
+        ```conda create -n py3 python=3.5 anaconda```
 
 5. Create R environment in your conda.
 
         ```conda create -n r -c r r-essentials```
         
-6. Install tck for R
+6. Install tck for R (enable install.packages() in R)
 
-        ```conda install -c intel tcl=8.6.4```
+        ```source activate r
+           conda install -c intel tcl=8.6.4```
 
-7. Note: If you want to remove environment you install:
+7. Note1: if you want to remove environment you install:
 
-        ```conda remove --name flowers --all```
+        ```conda remove --name py3 --all```
+        
+8. Note2: switch different environment
+
+        ```source activate r
+           source deactivate r```
 
 
 ### Some issues you may encounter during the process
@@ -71,6 +77,10 @@ A: Solution:
 - Note2: packages will be installed in /home/zijun/anaconda/envs/r/lib/R/library using install.packages()
               
               
-
+Q: How to install packages in R
+A: Since we set up the tcl, we can easily use install.packages() or remove.packages() to manage the R packages. However in this way, conda will lose control over r packages. Here is my recommendation:
+  - switch back to the root environment
+  - type ```conda install conda-build``` in the terminal
+  - 
 
 
