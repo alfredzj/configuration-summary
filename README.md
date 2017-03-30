@@ -1,5 +1,3 @@
-# Study-Note
+# Documentation
 
-* CMake
-* CPP
-* Github
+### This repository contains some key facts about programming issues 
