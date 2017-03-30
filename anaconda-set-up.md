@@ -39,7 +39,7 @@
         ```conda install -c intel tcl=8.6.4```
 
 ### Some issues you may encounter during the process
-1.
+1. tck not found
 > install.packages('highfrequency')  
 --- Please select a CRAN mirror for use in this session ---
 Error: .onLoad failed in loadNamespace() for 'tcltk', details:
@@ -47,6 +47,6 @@ call: fun(libname, pkgname)
 error: Can't find a usable init.tcl in the following directories: 
 /opt/anaconda1anaconda2anaconda3/lib/tcl8.5 ./lib/tcl8.5 ./lib/tcl8.5 ./library ./library ./tcl8.5.18/library ./tcl8.5.18/library
 
-  Solution: 
+    Solution: 
 
 
