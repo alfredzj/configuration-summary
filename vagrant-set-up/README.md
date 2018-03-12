@@ -23,7 +23,7 @@
 
 1. Click this [link](https://www.vagrantup.com/downloads.html) and download corresponding version of vagrant. If you are using ubuntu, you don't want to use apt-get to install since the version is too old.
 
-2. Assuming you are using ubuntu 16.04, you need to download the Debian version since Ubuntu is Debian-based OS. (https://unix.stackexchange.com/questions/28324/how-is-ubuntu-based-on-debian)
+2. Assuming you are using ubuntu 16.04, you need to download the Debian version since [Ubuntu is Debian-based OS](https://unix.stackexchange.com/questions/28324/how-is-ubuntu-based-on-debian)
 
         ```sudo dpkg -i vagrant_2.0.2_x86_64.deb``` . 
 
@@ -32,8 +32,7 @@
         ```sudo apt-get install virtualbox```
 
 4. Create a new directory for your configuration scripts. e.g. Websites, or Work-environments. This folder will not contain the VirtualBox binary files, just the Vagrant configuration scripts. 
-
-        ```refer to the Vagrantfile```
+Yu can orefer to this [Vagrantfile](https://github.com/alfredcoder/configuration-summary/blob/master/vagrant-set-up/Vagrantfile) as an example
 
 5. Now you are free to start it. From the command line, run the following commands:
 
