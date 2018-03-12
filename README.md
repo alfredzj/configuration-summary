@@ -1,3 +1,3 @@
-# Documentation
+# About the repository
 
-### This repository contains some key facts about programming issues 
+This is a summary for configuration problems.
