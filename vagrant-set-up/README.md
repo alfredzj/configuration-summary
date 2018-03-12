@@ -27,9 +27,9 @@
 
         ```sudo dpkg -i vagrant_2.0.2_x86_64.deb``` . 
 
-3. Install VirtualBox.
+3. Install [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
-        ```sudo apt-get install virtualbox```
+        ``` sudo dpkg -i virtualbox-5.2_5.2.8-121009_Ubuntu_xenial_amd64.deb```
 
 4. Create a new directory for your configuration scripts. e.g. Websites, or Work-environments. This folder will not contain the VirtualBox binary files, just the Vagrant configuration scripts. 
 Yu can orefer to this [Vagrantfile](https://github.com/alfredcoder/configuration-summary/blob/master/vagrant-set-up/Vagrantfile) as an example
