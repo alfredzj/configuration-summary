@@ -27,7 +27,7 @@
 
         ```sudo dpkg -i vagrant_2.0.2_x86_64.deb``` . 
 
-3. Install [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
+3. Install [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads) or refer to this [link](http://ubuntuhandbook.org/index.php/2017/10/virtualbox-reached-5-2-major-release-how-to-install/)
 
         ``` sudo dpkg -i virtualbox-5.2_5.2.8-121009_Ubuntu_xenial_amd64.deb```
 
